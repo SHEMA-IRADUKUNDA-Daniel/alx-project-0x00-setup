@@ -1,2 +1,7 @@
-import "@/interfaces/landing";
-export * from "./landing";
+export interface PillProps {
+  title: string;
+}
+export interface ButtonProps {
+  title: string;
+  styles: string;
+}
