@@ -19,7 +19,7 @@ const Landing: React.FC = () => {
             title="Custom Styled"
             size="large"
             shape="rounded-full"
-            className="bg-green-600 hover:bg-green-700"
+            styles="bg-green-600 hover:bg-green-700"
           />
         </div>
       </div>
