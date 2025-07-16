@@ -9,10 +9,30 @@ const Landing: React.FC = () => {
         <h1 className="text-3xl font-bold mb-4">Landing Page Buttons</h1>
 
         <div className="flex flex-wrap gap-4">
-          <Button title="Small Rounded" size="small" shape="rounded-sm" />
-          <Button title="Medium Rounded" size="medium" shape="rounded-md" />
-          <Button title="Large Rounded" size="large" shape="rounded-full" />
-          <Button title="Large Rounded" size="large" shape="rounded-lg" />
+          <Button
+            styles=""
+            title="Small Rounded"
+            size="small"
+            shape="rounded-sm"
+          />
+          <Button
+            styles=""
+            title="Medium Rounded"
+            size="medium"
+            shape="rounded-md"
+          />
+          <Button
+            styles=""
+            title="Large Rounded"
+            size="large"
+            shape="rounded-full"
+          />
+          <Button
+            styles=""
+            title="Large Rounded"
+            size="large"
+            shape="rounded-lg"
+          />
         </div>
 
         <div className="flex flex-wrap gap-4 mt-8">
