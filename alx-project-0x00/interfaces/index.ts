@@ -1,2 +1,2 @@
-import "@/interfaces/la nding";
+import "@/interfaces/landing";
 export * from "./landing";
