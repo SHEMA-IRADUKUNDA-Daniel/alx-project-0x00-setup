@@ -2,7 +2,7 @@ import { ButtonProps } from "@/interfaces/landing";
 import classNames from "classnames";
 const Button: React.FC<ButtonProps> = ({
   title,
-  size = "medium",
+  sizes = "medium",
   shape = "rounded-md",
   styles = "",
 }) => {
@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({
 
   const classes = classNames(
     "bg-blue-600 text-white font-semibold transition duration-200 hover:bg-blue-700",
-    sizeClasses[size],
+    sizeClasses[sizes],
     shape,
     styles
   );
