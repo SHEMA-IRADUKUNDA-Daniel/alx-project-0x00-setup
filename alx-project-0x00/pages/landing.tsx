@@ -10,37 +10,35 @@ const Landing: React.FC = () => {
 
         <div className="flex flex-wrap gap-4">
           <Button
-            styles=""
-            title="Small Rounded"
-            size="small"
-            shape="rounded-sm"
+            title="Small"
+            styles="text-small px-3 bg-blue-500 tex-white rounded-sm"
           />
           <Button
-            styles=""
-            title="Medium Rounded"
-            size="medium"
-            shape="rounded-md"
+            title="Medium"
+            styles="text-medium px-4 bg-green-500 tex-white rounded-md"
           />
           <Button
-            styles=""
-            title="Large Rounded"
-            size="large"
-            shape="rounded-full"
-          />
-          <Button
-            styles=""
-            title="Large Rounded"
-            size="large"
-            shape="rounded-lg"
+            title="Large"
+            styles="text-large px-5 bg-yellow-500 tex-white rounded-lg"
           />
         </div>
 
         <div className="flex flex-wrap gap-4 mt-8">
           <Button
-            title="Custom Styled"
-            size="large"
-            shape="rounded-full"
-            styles="bg-green-600 hover:bg-green-700"
+            title="Rounded-sm"
+            styles="text-small px-4 bg-red-500 tex-white rounded-sm"
+          />
+          <Button
+            title="Rounded-md"
+            styles="text-small px-4 bg-pink-500 tex-white rounded-md"
+          />
+          <Button
+            title="Rounded-full"
+            styles="text-small px-4 bg-purple-500 tex-white rounded-full"
+          />
+          <Button
+            title="Rounded-lg"
+            styles="text-small px-4 bg-black-500 tex-white rounded-lg"
           />
         </div>
       </div>
